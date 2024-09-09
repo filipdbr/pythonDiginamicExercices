@@ -28,6 +28,7 @@ class LivreEmpruntable(Livre):
         else:
             print(f"Le livre '{self.titre}' n'est pas emprunté.")
 
+    # Method converting an object to JSON
     def to_dict(self):
         return {
             "titre": self.titre,

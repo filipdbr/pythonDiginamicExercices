@@ -29,7 +29,6 @@ biblio.lister_livres()
 biblio.emprunter_livre("1984")
 biblio.emprunter_livre("La Peste")
 
-
 # List the books after borrowing
 biblio.lister_livres()
 
